@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLaaS2SaaS Enterprise Control Centre</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="style.css"> </head>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <!-- Sidebar -->
+    <nav class="sidebar" id="mainSidebar">
+        <!-- Landing sidebar state -->
+        <div class="sidebar-landing">
+            <div class="sidebar-pattern">
+                <i class="fas fa-cube brand-icon"></i>
+            </div>
+            <p class="sidebar-hint">Select a module to begin</p>
+        </div>
+    </nav>
+  <main class="main-content" id="mainContent">
+    <div class="landing-container" id="landingContainer">
+        <h1 class="landing-title">ClaaS Developer</h1>
+        <p class="landing-subtitle">
+            CLaaS Developer is your comprehensive AI-driven solution for crafting structured learning products. Empowering designers with intelligent automation, the platform simplifies the lifecycle integrating competency mapping, content creation, performance analytics, and marketing tools. 
+            Create adaptive, future-ready curricula efficiently, ensuring your training delivers measurable results and genuine professional growth.
+        </p>
+
+       <div class="app-selection">
+            <button class="app-btn security" id="securityButton">
+                <i class="fas fa-shield-alt app-icon"></i>
+                <h3 class="app-title">Product Catalogue</h3>
+                <p class="app-description">A centralized hub to define, view, and download structured learning plans, complete with curated courses, session content, and embedded scripts.<br>
+                    <a href="Session_Plan_Builder.html" style="color: blue; text-decoration: underline;">Learn more here.</a>
+                </p>
+            </button>
+            <button class="app-btn admin" id="adminButton">
+                <i class="fas fa-cogs app-icon"></i>
+                <h3 class="app-title">Session Plan Builder</h3>
+                <p class="app-description">Create coherent session plans by defining Knowledge, Skills, and Abilities and mapping them precisely to targeted Instructional Units.</p>
+            </button>
+            <button class="app-btn helpdesk" id="helpdeskButton">
+                <i class="fas fa-cloud app-icon"></i>
+                <h3 class="app-title">Generate Content</h3>
+                <p class="app-description">AI-powered platform auto-generating tailored course materials, case studies, and presentations transforming structured data into engaging, job-ready learning experiences.</p>
+            </button>
+            <button class="app-btn helpdesk" id="helpdeskButton">
+                <i class="fas fa-database app-icon"></i>
+                <h3 class="app-title">Generate Rubrics</h3>
+                <p class="app-description">Driving assessment consistency and efficiency by deploying generative AI to automate the development of clear, adaptable evaluation rubrics tailored to diverse learning outcomes.</p>
+            </button>
+            <button class="app-btn security" id="helpdeskButton">
+                <i class="fas fa-network-wired app-icon"></i>
+                <h3 class="app-title">Auto Grading Configuration</h3>
+                <p class="app-description">By merging assessments, rubrics, and tailored prompts into LMS-embedded scripts, we unlock seamless, AI-powered autograding for efficient evaluation.</p>
+            </button>
+            <button class="app-btn admin" id="helpdeskButton">
+                <i class="fas fa-life-ring app-icon"></i>
+                <h3 class="app-title">Product Analytics</h3>
+                <p class="app-description">Product Analytics drives Learner 360 success by integrating course performance, skills alignment, accreditation, and funding insights for holistic optimization.</p>
+            </button>
+            <button class="app-btn admin" id="helpdeskButton">
+               <i class="fas fa-robot app-icon"></i>
+                <h3 class="app-title">Product Copilot</h3>
+                <p class="app-description">Product Copilot ensures measurable mastery via AI-optimized paths, dynamic assessments, and real-time feedback aligned to professional qualifications.</p>
+            </button>
+            <button class="app-btn helpdesk" id="helpdeskButton">
+                <i class="fas fa-lock app-icon"></i>
+                <h3 class="app-title">Marketing Collaterals</h3>
+                <p class="app-description">Transform structured data into scalable, on-brand brochures and concise summaries with automated AI precision.</p>
+            </button>
+            <button class="app-btn security" id="helpdeskButton">
+               <i class="fas fa-project-diagram app-icon"></i>
+                <h3 class="app-title">Admin</h3>
+                <p class="app-description">Manage your learning ecosystem with precision. Configure courses, align competency frameworks, and map industry job roles. Customize learning paths and dynamic prompts to drive proficiency-based outcomes and scalable growth.</p>
+            </button>
+        </div>
+        </div>
+</main>
+<script src="nav-loader.js"></script>
+</body>
+</html>

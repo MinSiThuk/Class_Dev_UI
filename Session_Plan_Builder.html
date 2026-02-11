@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Plan Builder</title>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="style.css"> </head>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="cl-interface-wrapper">
+    <aside class="cl-sidebar-container">
+        <div class="cl-sidebar-brand">
+            <h2 class="cl-module-name">Session Plan Builder</h2>
+        </div>
+        <nav class="cl-side-navigation">
+            <a href="#" class="cl-nav-link">Overview</a>
+            <a href="Session_Plan_Builder.html" class="cl-nav-link cl-nav-active">Module List</a>
+            <a href="Module_Modification.html" class="cl-nav-link">Module Modification</a>
+            <a href="Session_Plans.html" class="cl-nav-link">Session Plan</a>
+        </nav>
+    </aside>
+
+    <main class="cl-body-content">
+        <section class="cl-page-header">
+            <h1 class="cl-headline">Session Plan Builder</h1>
+            <p class="cl-description">
+                Create coherent session plans by defining Knowledge, Skills, and Abilities and mapping them precisely to targeted Instructional Units.
+            </p>
+        </section>
+        
+      <div class="sb-card">
+    <div class="sb-header-group">
+        <h2 class="sb-title">
+            Module List 
+            <i class="fa-solid fa-rotate sb-icon-btn" style="font-size: 16px;"></i>
+        </h2>
+        <div class="sb-search-wrapper">
+            <input type="text" placeholder="Search modules..." class="sb-search-field">
+        </div>
+    </div>
+<div class="table-responsive">
+    <table class="sb-table">
+        <thead>
+            <tr class="sb-tr">
+                <th>Module Code</th>
+                <th>Action</th>
+                <th>Module Name</th>
+                <th>Duration</th>
+                <th>LMS Course Code</th>
+                <th>LMS Link</th>
+                <th>Create at</th>
+                <th>Create by</th>
+                <th>Update at</th>
+                <th>Update by</th>
+                <th>Archive at</th>
+                <th>Archive by</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="sb-tr">
+                <td>PCDI1-RPA</td>
+                     <td class="sb-action-icons">
+                    <div class="sb-icon-group">
+                        <i class="fa-regular fa-copy"></i>
+                       <a href="Module_Modification.html"><i class="fas fa-pencil-alt" title="Edit"></i></a> 
+                        <i class="far fa-bookmark" title="Archive"></i>
+                        <i class="fas fa-trash-alt" title="Delete"></i>
+                    </div>
+                </td>
+                <td class="scrollable-content">Low Code Application Development</td>
+                <td class="scrollable-content">60.5</td>
+                <td class="scrollable-content">NA</td>
+                <td class="scrollable-content">NA</td>
+            </tr>
+            <tr class="sb-tr">
+                <td>PCDI1-BAN</td>
+                <td class="sb-action-icons">
+                    <div class="sb-icon-group">
+                        <i class="fa-regular fa-copy"></i>
+                      <a href="Module_Modification.html"><i class="fas fa-pencil-alt" title="Edit"></i></a>  
+                        <i class="far fa-bookmark" title="Archive"></i>
+                        <i class="fas fa-trash-alt" title="Delete"></i>
+                    </div>
+                </td>
+                <td class="scrollable-content">Data Analytics and Management</td>
+                <td class="scrollable-content">60.5</td>
+                <td class="scrollable-content">NA</td>
+                <td class="scrollable-content">NA</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    </div>
+    <div class="sb-pagination-bar">
+    <button class="sb-btn-nav">Previous</button>
+    <span style="font-family: var(--sb-font-body);">Page 1 of 17</span>
+    <button class="sb-btn-nav">Next</button>
+</div>
+</div>
+
+
+    </main>
+</div>
+<script src="nav-loader.js"></script>
+</body>
+</html>
+ 
